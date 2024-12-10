@@ -1,0 +1,21 @@
+.hero {
+  .hero__wrapper {
+    display: flex;
+    justify-content: space-between;
+    .first__hero {
+      width: 50%;
+      .hero__title {
+        font-size: 40px;
+        font-weight: 700;
+        line-height: 48.76px;
+        color: white;
+      }
+      .hero__title_span{
+        color: #ae9fe7;
+      }
+      .hero__text{
+        margin: 40px 0px;
+      }
+    }
+  }
+}
