@@ -10,4 +10,72 @@ a {
 
 body {
   background-color: #343045;
+}
+
+.introduct__title {
+  font-size: 36px;
+  color: white;
+  font-weight: bold;
+}
+
+.mini-box_text {
+  font-size: 36px;
+  color: white;
+}
+
+.introduct__mini-box {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+.introduct__right {
+  width: 650px;
+  color: white;
+}
+
+.introduct__top {
+  display: flex;
+  align-items: center;
+  gap: 111px;
+  justify-content: center;
+}
+
+.bottom-title {
+  font-size: 36px;
+  color: white;
+  font-weight: bold;
+}
+
+.bottom-sustext {
+  font-size: 36px;
+  color: white;
+}
+
+.bottom-text {
+  color: white;
+  width: 630px;
+  margin: 42px 0 28px;
+}
+
+.bottom-btn {
+  border: none;
+  border-radius: 40px;
+  padding: 17px 39px;
+  background: linear-gradient(90deg, #8176AF 0%, #C0B7E8 100%);
+}
+
+.introduct__bottom {
+  display: flex;
+  align-items: center;
+  gap: 118px;
+  justify-content: center;
+  margin-top: 69px;
+  background-image: url("/assets/Vector 7.png"), url("/assets/Vector 8.png");
+  background-repeat: no-repeat;
+  background-position: 0 40px, 0 300px;
+}
+
+.introduct__wrapper {
+  padding: 90px;
 }/*# sourceMappingURL=style.css.map */
