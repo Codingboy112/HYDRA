@@ -63,9 +63,78 @@ body {
   color: #343045;
 }
 
+.introduct__title {
+  font-size: 36px;
+  color: white;
+  font-weight: bold;
+}
+
+.mini-box_text {
+  font-size: 36px;
+  color: white;
+}
+
+.introduct__mini-box {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+.introduct__right {
+  width: 590px;
+  color: white;
+}
+
+.introduct__top {
+  display: flex;
+  align-items: center;
+  gap: 111px;
+  justify-content: center;
+}
+
+.bottom-title {
+  font-size: 36px;
+  color: white;
+  font-weight: bold;
+}
+
+.bottom-sustext {
+  font-size: 36px;
+  color: white;
+}
+
+.bottom-text {
+  color: white;
+  width: 630px;
+  margin: 42px 0 28px;
+}
+
+.bottom-btn {
+  border: none;
+  border-radius: 40px;
+  padding: 17px 39px;
+  background: linear-gradient(90deg, #8176AF 0%, #C0B7E8 100%);
+}
+
+.introduct__bottom {
+  display: flex;
+  align-items: center;
+  gap: 118px;
+  justify-content: center;
+  margin-top: 69px;
+  background-image: url("/assets/Vector 7.png"), url("/assets/Vector 8.png");
+  background-repeat: no-repeat;
+  background-position: 0 40px, 0 300px;
+}
+
+.introduct__wrapper {
+  padding: 90px;
+}
+
 .hero .hero__wrapper {
   display: flex;
   justify-content: space-between;
+  margin-top: 30px;
 }
 .hero .hero__wrapper .first__hero {
   width: 50%;
@@ -80,5 +149,57 @@ body {
   color: #ae9fe7;
 }
 .hero .hero__wrapper .first__hero .hero__text {
-  margin: 40px 0px;
+  margin: 30px 0px;
+  color: white;
+  width: 500px;
+}
+.hero .hero__wrapper .first__hero .hero__btn {
+  padding: 16px 35px;
+  border-radius: 24px;
+  border: none;
+  background: linear-gradient(90deg, #8176AF 0%, #C0B7E8 100%);
+  font-weight: 600;
+  color: #343045;
+}
+.hero .hero__wrapper .first__hero .bi {
+  font-size: 40px;
+  position: relative;
+  top: 10px;
+  left: 20px;
+  color: #ae9fe7;
+}
+.hero .hero__wrapper .second__hero .img {
+  width: 470px;
+  height: 400px;
+  background-image: url("../assets/Mask group.png");
+  background-size: cover;
+  margin-right: 140px;
+}
+
+body {
+  background-image: url("../assets/line1.png"), url("../assets/line2.png");
+  background-size: 700px 560px, 500px 700px;
+  background-repeat: no-repeat;
+  background-position: calc(50% + 360px) 180px, calc(50% + 360px) 40px;
+}
+
+.contact {
+  width: 100%;
+  padding: 50px;
+  background: radial-gradient(50% 2900.76% at 50% 53.89%, rgba(58, 52, 86, 0.95) 0%, #211E2E 100%);
+  border-radius: 40px;
+  margin-top: 60px;
+  color: white;
+}
+.contact .contact__wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+.contact .first__contact_wrapper {
+  display: flex;
+  gap: 10px;
+}
+.contact .first__contact_wrapper .firs-contact__first .bi {
+  font-size: 36px;
+  color: #C0B7E8;
 }/*# sourceMappingURL=style.css.map */
